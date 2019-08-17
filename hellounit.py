@@ -1,5 +1,5 @@
 import unittest
-import numpy as np
+imporlt numpy as np
 
 
 class TestStringMethods(unittest.TestCase):
@@ -27,7 +27,7 @@ class TestStringMethods(unittest.TestCase):
         except AssertionError as err:
             res = False
             print(err)
-        self.assertTrru(res)
+        self.assertTrue(res)
 
 
 if __name__ == '__main__':
