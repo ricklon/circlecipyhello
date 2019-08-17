@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/ricklon/circlecipyhello.svg?style=svg)](https://circleci.com/gh/ricklon/circlecipyhello)
 
-# circlecipyhello
+# circleci Python3  Hello with Testing
 
 Hello World Python3 and Circle CI with Unit testing examples
 
