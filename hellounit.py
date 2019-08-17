@@ -1,5 +1,5 @@
 import unittest
-imporlt numpy as np
+import numpy as np
 
 
 class TestStringMethods(unittest.TestCase):
