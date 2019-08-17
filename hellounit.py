@@ -1,4 +1,5 @@
 import unittest
+import numpy as np
 
 class TestStringMethods(unittest.TestCase):
 
@@ -15,6 +16,17 @@ class TestStringMethods(unittest.TestCase):
         # check that s.split fails when the separator is not a string
         with self.assertRaises(TypeError):
             s.split(2)
+            
+     def test_np_array_equal(self):
+        a = np.array([1, 2, 3])
+        b = np.array([1, 2, 3])
+        try:
+            np.testing.assert_array_equal(a,b)
+            res = True
+        except AssertionError as err:
+            res =False
+            print(err)
+        self.assertTrru(res)
 
 if __name__ == '__main__':
     unittest.main()
