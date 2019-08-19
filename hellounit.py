@@ -36,6 +36,9 @@ class TestStringMethods(unittest.TestCase):
             res = False
             print(err)
         self.assertTrue(res)
+     
+    def test_lower(self):
+        self.assertEqual('foo'.lower(), 'FOO')
 
 
 if __name__ == '__main__':
