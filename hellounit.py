@@ -38,7 +38,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(res)
      
     def test_lower(self):
-        self.assertEqual('foo'.lower(), 'FOO')
+        self.assertEqual('foo'.lower(), 'foo')
 
 
 if __name__ == '__main__':
